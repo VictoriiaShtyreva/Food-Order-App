@@ -11,7 +11,7 @@ const Header = (props) => {
       <header className={styles.header}>
         <h1 className={styles['visually-hidden']}>Healthy Meals</h1>
         <img src={logoImage} alt="Logo of food order app."/>
-        <HeaderButtonCart />
+        <HeaderButtonCart onClick={props.onShowCart}/>
       </header>
       <div className={styles['main-image']}>
         <img src={healthyMealsImage} alt="Healthy food."/>
