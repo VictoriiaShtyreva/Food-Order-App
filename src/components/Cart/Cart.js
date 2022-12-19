@@ -11,10 +11,14 @@ const Cart = (props) => {
   const hasItems = cartCtx.items.length > 0;
 
   // Function for remove CartItem inside Cart
-  const cartItemRemoveHandler = (id) => {};
+  const cartItemRemoveHandler = (id) => {
+    cartCtx.removeItem(id);
+  };
 
   // Function for add CartItem inside Cart
-  const cartItemAddHandler = (item) => {};
+  const cartItemAddHandler = (item) => {
+    cartCtx.addItem({...item, amount: 1});
+  };
 
   const cartItems = (
     <ul className={styles["cart-items"]}>
@@ -24,8 +28,8 @@ const Cart = (props) => {
           name={item.name}
           amount={item.amount}
           price={item.price}
-          onRemove={cartItemRemoveHandler.bind(null, item.id)}
-          onAdd={cartItemAddHandler.bind(null, item)}
+          onRemove={cartItemRemoveHandler.bind(null, item.id)} //pass parameters
+          onAdd={cartItemAddHandler.bind(null, item)} //pass parameters
         />
       ))}
     </ul>
