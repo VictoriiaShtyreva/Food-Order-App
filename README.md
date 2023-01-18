@@ -3,8 +3,8 @@
 _____
 Implemented the following features:
 - :white_check_mark: React Hooks (useState, useEffect, UseContext, useReducer)
-- :white_check_mark: Components tree;
-- :white_check_mark: Add data in cart and rendering list of items;
+- :white_check_mark: Submitting orders to a backend server as Firebase;
+- :white_check_mark: Fetch data from server;
 - :white_check_mark: Hosting GitHub pages.
 
 ## How it use:
