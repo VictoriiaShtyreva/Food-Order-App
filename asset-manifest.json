@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Food-Order-App/static/css/main.b8a2d125.css",
+    "main.css": "/Food-Order-App/static/css/main.325c1252.css",
     "main.js": "/Food-Order-App/static/js/main.ec26c50b.js",
     "static/media/healthymeals.jpg": "/Food-Order-App/static/media/healthymeals.9d8459a21c1ee7a792b0.jpg",
     "static/media/logo.png": "/Food-Order-App/static/media/logo.bf700e521e12feab0c2b.png",
     "index.html": "/Food-Order-App/index.html",
-    "main.b8a2d125.css.map": "/Food-Order-App/static/css/main.b8a2d125.css.map",
+    "main.325c1252.css.map": "/Food-Order-App/static/css/main.325c1252.css.map",
     "main.ec26c50b.js.map": "/Food-Order-App/static/js/main.ec26c50b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8a2d125.css",
+    "static/css/main.325c1252.css",
     "static/js/main.ec26c50b.js"
   ]
 }
